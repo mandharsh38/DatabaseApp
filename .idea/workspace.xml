@@ -16,16 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="437e1923-48b4-4cd6-861d-aacc64a468a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DatabaseApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="437e1923-48b4-4cd6-861d-aacc64a468a3" name="Default Changelist" comment="Close to Complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -177,6 +178,14 @@
       <option name="presentableId" value="Default" />
       <updated>1595917596819</updated>
     </task>
+    <task id="LOCAL-00001" summary="Close to Complete">
+      <created>1596362746985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596362746985</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,32 +193,57 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Close to Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Close to Complete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="93" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596213095761">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
     <state x="184" y="93" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.818@0.25.1440.818" timestamp="1596213095761" />
-    <state width="1419" height="209" key="GridCell.Tab.0.bottom" timestamp="1596218726183">
+    <state width="1419" height="209" key="GridCell.Tab.0.bottom" timestamp="1596362777459">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1419" height="209" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1596218726183" />
-    <state width="1419" height="209" key="GridCell.Tab.0.center" timestamp="1596218726181">
+    <state width="1419" height="209" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1596362777459" />
+    <state width="1419" height="209" key="GridCell.Tab.0.center" timestamp="1596362777458">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1419" height="209" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1596218726181" />
-    <state width="1419" height="209" key="GridCell.Tab.0.left" timestamp="1596218726180">
+    <state width="1419" height="209" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1596362777458" />
+    <state width="1419" height="209" key="GridCell.Tab.0.left" timestamp="1596362777458">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1419" height="209" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1596218726180" />
-    <state width="1419" height="209" key="GridCell.Tab.0.right" timestamp="1596218726182">
+    <state width="1419" height="209" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1596362777458" />
+    <state width="1419" height="209" key="GridCell.Tab.0.right" timestamp="1596362777459">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state width="1419" height="209" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1596218726182" />
+    <state width="1419" height="209" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1596362777459" />
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2" timestamp="1596362756857">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.25.1440.818@0.25.1440.818" timestamp="1596362756857" />
+    <state x="421" y="160" width="597" height="548" key="find.popup" timestamp="1596362701122">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="421" y="160" width="597" height="548" key="find.popup/0.25.1440.818@0.25.1440.818" timestamp="1596362701122" />
   </component>
 </project>
